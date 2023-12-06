@@ -8,7 +8,7 @@
  
  ##  💻 Visão Geral
 
-![Ramon Dino](https://giphy.com/gifs/gym-bodybuilder-ultraswole-6lu4pM4aUJ73VsRXzn)
+![Ramon Dino](./knapsack/images/tenor.gif)
 
  ### Mr Olympia Store
 
