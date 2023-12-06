@@ -1,3 +1,39 @@
+function knapsackDinamico(items, capacity) {
+    const n = items.length;
+    const dpTable = [];
+
+    for (let i = 0; i <= n; i++) {
+        dpTable[i] = [];
+        for (let w = 0; w <= capacity; w++) {
+        if (i === 0 || w === 0) {
+            dpTable[i][w] = 0;
+        } else if (items[i - 1].weight <= w) {
+            const remainingCapacity = w - items[i - 1].weight;
+            dpTable[i][w] = Math.max(
+            items[i - 1].value + dpTable[i - 1][remainingCapacity],
+            dpTable[i - 1][w]
+            );
+        } else {
+            dpTable[i][w] = dpTable[i - 1][w];
+        }
+        }
+    }
+
+    let remainingCapacity = capacity;
+    const selectedItems = [];
+
+    for (let i = n; i > 0 && remainingCapacity > 0; i--) {
+        if (dpTable[i][remainingCapacity] !== dpTable[i - 1][remainingCapacity]) {
+        selectedItems.push(items[i - 1].name);
+        remainingCapacity -= items[i - 1].weight;
+        }
+    }
+
+    return {
+        maxValue: dpTable[n][capacity],
+        selectedItems: selectedItems.reverse()
+    };
+}
 
 //peso = preço em reais
 //valor = proteina em gramas
@@ -38,10 +74,14 @@ const items = [
     { name: "Tempeh", value: 21, weight: 29},
     { name: "Edamame", value: 25, weight: 26},
     { name: "Proteína de Soja Texturizada", value: 29, weight: 21}
-  ];
+];
   
-const resultado = knapsackDinamico(items, 50);
+const resultado = knapsackDinamico(items, 1000);
 console.log("Valor máximo:", resultado.maxValue);
 console.log("Itens selecionados:", resultado.selectedItems);
+resultado.selectedItems.forEach(item => {
+    const selectedItem = items.find(i => i.name === item);
+    console.log(`- ${item} (Porteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})`);
+  });
 
   
