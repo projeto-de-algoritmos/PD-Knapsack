@@ -9,6 +9,12 @@
  ##  💻 Visão Geral
 
  ### Interface: 
+![image](https://github.com/projeto-de-algoritmos/PD-Knapsack/assets/54143767/79d99602-75b5-4876-bf7f-538acbcc6779)
+![image](https://github.com/projeto-de-algoritmos/PD-Knapsack/assets/54143767/32c76288-087e-458f-946f-b50f367f3b8b)
+![image](https://github.com/projeto-de-algoritmos/PD-Knapsack/assets/54143767/158e233d-8d44-45b3-8cb4-f76128eb66f8)
+![image](https://github.com/projeto-de-algoritmos/PD-Knapsack/assets/54143767/d0a66c50-87f4-4c70-a2fe-c910f1ab8af7)
+![image](https://github.com/projeto-de-algoritmos/PD-Knapsack/assets/54143767/7b428ea0-a2a1-44ac-9856-52598a5f7da2)
+
 
 ## ➿ Execução do Projeto
 
@@ -18,10 +24,9 @@ Tabela de ferramentas necessárias para rodar o projeto, com as versões recomen
 
 | Ferramenta | Versão | Instalação |
 | :-------: | ----------- | -------------------------------------------------------- |
-| Node.Js | 18.16.0 | [Baixar instalador](https://nodejs.org/) |
 | Git | 2.40.1.windows.1 | [Baixar instalador](https://git-scm.com/) |
 | Javascript | - | Acompanhado do node |
-| React | ^18.2.0 | npm install react react-dom |
+| Extensão do Live Server | - | Baixe no vscode |
 
 ### 🔂 Executando o Projeto
 
@@ -31,38 +36,14 @@ Tabela de ferramentas necessárias para rodar o projeto, com as versões recomen
 $ git clone https://github.com/projeto-de-algoritmos/PD-Knapsack.git
 ```
 
-#### Instale as dependências do projeto
-
-```bash 
-$ npm i
-```
-
-#### Verifique se o react foi instalado
-
-```bash 
-$ npm list react
-```
-
-#### Se não, instale o react
-
-```bash 
-$ npm install react react-dom
-```
-
-#### Entre no caminho da pasta
-
-```bash
-$ cd .\MedianaDasMedianas\frontend\src
-```
-
-#### Execute o projeto 
-
-```bash 
-$ npm run start
-```
-
 ## ✔️ Utilização do projeto
-Para utilização do projeo acesse a página localmente.
+Para utilização do projeo, faça:
+
+```bash 
+Ctrl+Shift+X
+```
+- Ou com o botão direito, clique no arquivo index.html e selecione 'Abrir com Live Server'
+- Ou utilize o search do navegador para pesquisar: http://127.0.0.1:5500/knapsack/index.html
 
 ## 🔗 Apresentação
 
