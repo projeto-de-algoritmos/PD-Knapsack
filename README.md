@@ -8,9 +8,13 @@
  
  ##  💻 Visão Geral
 
+<div align="center">
+
 ![Ramon Dino](./knapsack/images/tenor.gif)
 
  ### Mr Olympia Store
+ 
+</div>
 
  O Mr Olympia Store é uma inovadora loja online que, se baseando em valores similares aos encontrados na internet, busca trazer ao usuário que o acesse uma facilidade no controle de gastos que ele deseja dispensar em proteínas num mês. Sendo assim, tentando facilitar a vida do consumidor, ele oferece, com base na seleção do valor desejado pelo cliente, uma lista otimizada com o maior número de alimentos - com um teor proteico maximizado - no melhor custo-benefício a quem deseja comprar, para assim na hora que se for ao mercado, já se saiba a maior quantidade de produtos, no melhor custo benefício possível.
  
