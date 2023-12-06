@@ -20,19 +20,31 @@
       <h3>Selecione quanto pretende gastar:</h3>
     </div>
     <div id="buttons">
-      <button id="botaoUm" class="buttonValue" value="100">R$ 100,00</button>
-      <button id="botaoDois" class="buttonValue" value="200">R$ 200,00</button>
-      <button id="botaoTres" class="buttonValue" value="300">R$ 300,00</button>
-      <button id="botaoQuatro" class="buttonValue" value="400">R$ 400,00</button>
-      <button id="botaoCinco" class="buttonValue" value="500">R$ 500,00</button>
-      <button id="botaoSeis" class="buttonValue" value="600">R$ 600,00</button>
-      <button id="botaoSete" class="buttonValue" value="700">R$ 700,00</button>
-      <button id="botaoOito" class="buttonValue" value="800">R$ 800,00</button>
-      <button id="botaoNove" class="buttonValue" value="900">R$ 900,00</button>
-      <button id="botaoDez" class="buttonValue" value="1000">R$ 1.000,00</button>
+      <button id="botaoUm" class="buttonValue" onclick="changeColor(this)" value="100">R$ 100,00</button>
+      <button id="botaoDois" class="buttonValue" onclick="changeColor(this)" value="200">R$ 200,00</button>
+      <button id="botaoTres" class="buttonValue" onclick="changeColor(this)" value="300">R$ 300,00</button>
+      <button id="botaoQuatro" class="buttonValue" onclick="changeColor(this)" value="400">R$ 400,00</button>
+      <button id="botaoCinco" class="buttonValue" onclick="changeColor(this)" value="500">R$ 500,00</button>
+      <button id="botaoSeis" class="buttonValue" onclick="changeColor(this)" value="600">R$ 600,00</button>
+      <button id="botaoSete" class="buttonValue" onclick="changeColor(this)" value="700">R$ 700,00</button>
+      <button id="botaoOito" class="buttonValue" onclick="changeColor(this)" value="800">R$ 800,00</button>
+      <button id="botaoNove" class="buttonValue" onclick="changeColor(this)" value="900">R$ 900,00</button>
+      <button id="botaoDez" class="buttonValue" onclick="changeColor(this)" value="1000">R$ 1.000,00</button>
     </div>
     <div id="resultado"></div>
     <script src="algoritmo.js"></script>
+    <script>
+      function changeColor(button) {
+          // Remove a classe 'pressed' de todos os botões
+          var buttons = document.querySelectorAll('.buttonValue');
+          buttons.forEach(function(btn) {
+              btn.classList.remove('pressed');
+          });
+  
+          // Adiciona a classe 'pressed' apenas ao botão clicado
+          button.classList.add('pressed');
+      }
+  </script>
   </div>
   <div class="content-left"></div>
 </body>

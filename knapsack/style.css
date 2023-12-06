@@ -47,10 +47,16 @@ h3{
 .buttonValue:hover {
     font-family: 'Sarabun', sans-serif;
     color: rgb(255, 255, 255);
-    background-color: #ab1616;
+    background-color: #d36969;
     border-radius: 10px;
     cursor:pointer;
     
+}
+
+.buttonValue.pressed {
+    color: #ffffff;
+    background-color: #ab1616;
+    border-radius: 10px;
 }
 #resultado{
     margin-top: 30px;
