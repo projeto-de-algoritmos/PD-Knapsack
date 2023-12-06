@@ -75,13 +75,165 @@ const items = [
     { name: "Edamame", value: 250, weight: 26},
     { name: "Proteína de Soja Texturizada", value: 290, weight: 21}
 ];
+
+document.getElementById('botaoUm').addEventListener('click', function() {
+    const capacidade = document.getElementById("botaoUm").value
   
-const resultado = knapsackDinamico(items, 200);
-console.log("Valor máximo:", resultado.maxValue);
-console.log("Itens selecionados:", resultado.selectedItems);
-resultado.selectedItems.forEach(item => {
-    const selectedItem = items.find(i => i.name === item);
-    console.log(`- ${item} (Porteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})`);
-  });
+    const resultado = knapsackDinamico(items, capacidade);
+    let resultadoDiv = document.getElementById("resultado");
+    resultadoDiv.innerHTML = '';
+    resultadoDiv.innerHTML += `<p>Valor de proteínas máximo colocado no carrinho: ${resultado.maxValue} gramas</p>
+    <br>`
+    resultado.selectedItems.forEach(item => {
+      const selectedItem = items.find(i => i.name === item);
+      resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>`
+    });
+})
+
+
+  document.getElementById('botaoDois').addEventListener('click', function() {
+    const capacidade = document.getElementById("botaoDois").value
+  
+    const resultado = knapsackDinamico(items, capacidade);
+    let resultadoDiv = document.getElementById("resultado");
+  
+    resultadoDiv.innerHTML = '';
+    resultadoDiv.innerHTML += `<p>Valor de proteínas máximo colocado no carrinho: ${resultado.maxValue} gramas</p>
+    <br>`
+    resultado.selectedItems.forEach(item => {
+      const selectedItem = items.find(i => i.name === item);
+      resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>`
+    });
+})
+
+  document.getElementById('botaoTres').addEventListener('click', function() {
+    const capacidade = document.getElementById("botaoTres").value
+  
+    const resultado = knapsackDinamico(items, capacidade);
+    let resultadoDiv = document.getElementById("resultado");
+  
+    resultadoDiv.innerHTML = '';
+    resultadoDiv.innerHTML += `<p>Valor de proteínas máximo colocado no carrinho: ${resultado.maxValue} gramas</p>
+    <br>`
+    resultado.selectedItems.forEach(item => {
+      const selectedItem = items.find(i => i.name === item);
+      resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>`
+    });
+})
+  
+  document.getElementById('botaoQuatro').addEventListener('click', function() {
+    const capacidade = document.getElementById("botaoQuatro").value
+  
+    const resultado = knapsackDinamico(items, capacidade);
+    let resultadoDiv = document.getElementById("resultado");
+  
+    resultadoDiv.innerHTML = '';
+    resultadoDiv.innerHTML += `<p>Valor de proteínas máximo colocado no carrinho: ${resultado.maxValue} gramas</p>
+    <br>`
+    resultado.selectedItems.forEach(item => {
+      const selectedItem = items.find(i => i.name === item);
+      resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>`
+    });
+})
+
+  document.getElementById('botaoCinco').addEventListener('click', function() {
+    const capacidade = document.getElementById("botaoCinco").value
+  
+    const resultado = knapsackDinamico(items, capacidade);
+    let resultadoDiv = document.getElementById("resultado");
+  
+    resultadoDiv.innerHTML = '';
+    resultadoDiv.innerHTML += `<p>Valor de proteínas máximo colocado no carrinho: ${resultado.maxValue} gramas</p>
+    <br>`
+    resultado.selectedItems.forEach(item => {
+      const selectedItem = items.find(i => i.name === item);
+      resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>`
+    });
+})
+
+  document.getElementById('botaoSeis').addEventListener('click', function() {
+    const capacidade = document.getElementById("botaoSeis").value
+  
+    const resultado = knapsackDinamico(items, capacidade);
+    let resultadoDiv = document.getElementById("resultado");
+  
+    resultadoDiv.innerHTML = '';
+    resultadoDiv.innerHTML += `<p>Valor de proteínas máximo colocado no carrinho: ${resultado.maxValue} gramas</p>
+    <br>`
+    resultado.selectedItems.forEach(item => {
+      const selectedItem = items.find(i => i.name === item);
+      resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>`
+    });
+})
+
+  document.getElementById('botaoSete').addEventListener('click', function() {
+    const capacidade = document.getElementById("botaoSete").value
+  
+    const resultado = knapsackDinamico(items, capacidade);
+    let resultadoDiv = document.getElementById("resultado");
+  
+    resultadoDiv.innerHTML = '';
+    resultadoDiv.innerHTML += `<p>Valor de proteínas máximo colocado no carrinho: ${resultado.maxValue} gramas</p>
+    <br>`
+    resultado.selectedItems.forEach(item => {
+      const selectedItem = items.find(i => i.name === item);
+      resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>`
+    });
+})
+
+  document.getElementById('botaoOito').addEventListener('click', function() {
+    const capacidade = document.getElementById("botaoOito").value
+  
+    const resultado = knapsackDinamico(items, capacidade);
+    let resultadoDiv = document.getElementById("resultado");
+  
+    resultadoDiv.innerHTML = '';
+    resultadoDiv.innerHTML += `<p>Valor de proteínas máximo colocado no carrinho: ${resultado.maxValue} gramas</p>
+    <br>`
+    resultado.selectedItems.forEach(item => {
+      const selectedItem = items.find(i => i.name === item);
+      resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>`
+    });
+})
+
+  document.getElementById('botaoNove').addEventListener('click', function() {
+    const capacidade = document.getElementById("botaoNove").value
+  
+    const resultado = knapsackDinamico(items, capacidade);
+    let resultadoDiv = document.getElementById("resultado");
+  
+    resultadoDiv.innerHTML = '';
+    resultadoDiv.innerHTML += `<p>Valor de proteínas máximo colocado no carrinho: ${resultado.maxValue} gramas</p>
+    <br>`
+    resultado.selectedItems.forEach(item => {
+      const selectedItem = items.find(i => i.name === item);
+      resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>`
+    });
+})
+
+  document.getElementById('botaoDez').addEventListener('click', function() {
+    const capacidade = document.getElementById("botaoDez").value
+  
+    const resultado = knapsackDinamico(items, capacidade);
+    let resultadoDiv = document.getElementById("resultado");
+  
+    resultadoDiv.innerHTML = '';
+    resultadoDiv.innerHTML += `<p>Valor de proteínas máximo colocado no carrinho: ${resultado.maxValue} gramas</p>
+    <br>`
+    resultado.selectedItems.forEach(item => {
+      const selectedItem = items.find(i => i.name === item);
+      resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>`
+    });
+})
 
   
