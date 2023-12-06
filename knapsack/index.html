@@ -4,24 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mr Olympia Store</title>
+  <script src="https://kit.fontawesome.com/e1ca38581b.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Bem vindo ao Mr Olympia Store</h1>
-  <h4>Aqui nós mostramos as melhores proteínas custo-benefício para você não perder seus ganhos</h4>
-  <h2>A seleção é feita com base na quantia em dinheiro desejada</h2>
-  <h3>Selecione quanto pretende gastar:</h3>
-  <button id="botaoUm" value="100">R$ 100,00</button>
-  <button id="botaoDois" value="200">R$ 200,00</button>
-  <button id="botaoTres" value="300">R$ 300,00</button>
-  <button id="botaoQuatro" value="400">R$ 400,00</button>
-  <button id="botaoCinco" value="500">R$ 500,00</button>
-  <button id="botaoSeis" value="600">R$ 600,00</button>
-  <button id="botaoSete" value="700">R$ 700,00</button>
-  <button id="botaoOito" value="800">R$ 800,00</button>
-  <button id="botaoNove" value="900">R$ 900,00</button>
-  <button id="botaoDez" value="1000">R$ 1.000,00</button>
-  <div id="resultado"></div>
-  <script src="algoritmo.js"></script>
+  <div class="content-right"></div>
+  <div class="content-center">
+    <div id="header">
+      <h1><i class="fa-solid fa-dumbbell" style="color: #ab1616;"></i> Mr Olympia Store</h1>
+      <h4>Aqui nós mostramos as melhores proteínas custo-benefício para você não perder seus ganhos</h4>
+      <h3>Selecione quanto pretende gastar:</h3>
+    </div>
+    <div id="buttons">
+      <button id="botaoUm" class="buttonValue" value="100">R$ 100,00</button>
+      <button id="botaoDois" class="buttonValue" value="200">R$ 200,00</button>
+      <button id="botaoTres" class="buttonValue" value="300">R$ 300,00</button>
+      <button id="botaoQuatro" class="buttonValue" value="400">R$ 400,00</button>
+      <button id="botaoCinco" class="buttonValue" value="500">R$ 500,00</button>
+      <button id="botaoSeis" class="buttonValue" value="600">R$ 600,00</button>
+      <button id="botaoSete" class="buttonValue" value="700">R$ 700,00</button>
+      <button id="botaoOito" class="buttonValue" value="800">R$ 800,00</button>
+      <button id="botaoNove" class="buttonValue" value="900">R$ 900,00</button>
+      <button id="botaoDez" class="buttonValue" value="1000">R$ 1.000,00</button>
+    </div>
+    <div id="resultado"></div>
+    <script src="algoritmo.js"></script>
+  </div>
+  <div class="content-left"></div>
 </body>
 </html>

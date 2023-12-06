@@ -87,6 +87,7 @@ document.getElementById('botaoUm').addEventListener('click', function() {
     resultado.selectedItems.forEach(item => {
       const selectedItem = items.find(i => i.name === item);
       resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>
       <br>`
     });
 })
@@ -104,6 +105,7 @@ document.getElementById('botaoUm').addEventListener('click', function() {
     resultado.selectedItems.forEach(item => {
       const selectedItem = items.find(i => i.name === item);
       resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>
       <br>`
     });
 })
@@ -120,6 +122,7 @@ document.getElementById('botaoUm').addEventListener('click', function() {
     resultado.selectedItems.forEach(item => {
       const selectedItem = items.find(i => i.name === item);
       resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>
       <br>`
     });
 })
@@ -136,6 +139,7 @@ document.getElementById('botaoUm').addEventListener('click', function() {
     resultado.selectedItems.forEach(item => {
       const selectedItem = items.find(i => i.name === item);
       resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>
       <br>`
     });
 })
@@ -152,6 +156,7 @@ document.getElementById('botaoUm').addEventListener('click', function() {
     resultado.selectedItems.forEach(item => {
       const selectedItem = items.find(i => i.name === item);
       resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>
       <br>`
     });
 })
@@ -168,6 +173,7 @@ document.getElementById('botaoUm').addEventListener('click', function() {
     resultado.selectedItems.forEach(item => {
       const selectedItem = items.find(i => i.name === item);
       resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>
       <br>`
     });
 })
@@ -184,6 +190,7 @@ document.getElementById('botaoUm').addEventListener('click', function() {
     resultado.selectedItems.forEach(item => {
       const selectedItem = items.find(i => i.name === item);
       resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>
       <br>`
     });
 })
@@ -200,6 +207,7 @@ document.getElementById('botaoUm').addEventListener('click', function() {
     resultado.selectedItems.forEach(item => {
       const selectedItem = items.find(i => i.name === item);
       resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>
       <br>`
     });
 })
@@ -216,6 +224,7 @@ document.getElementById('botaoUm').addEventListener('click', function() {
     resultado.selectedItems.forEach(item => {
       const selectedItem = items.find(i => i.name === item);
       resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>
       <br>`
     });
 })
@@ -232,6 +241,7 @@ document.getElementById('botaoUm').addEventListener('click', function() {
     resultado.selectedItems.forEach(item => {
       const selectedItem = items.find(i => i.name === item);
       resultadoDiv.innerHTML += `- ${item} (Proteínas: ${selectedItem.value} g; Valor: R$${selectedItem.weight})
+      <br>
       <br>`
     });
 })
