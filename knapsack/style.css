@@ -15,11 +15,13 @@ body{
 .content-left{
     background: url('./images/ramon.png') 75% 0 fixed;
     width: 100%;
+    height: 1630px;
 }
 .content-right{
     background: url('./images/cbum.jpg') 0% 0 fixed;
     background-attachment: fixed;
     width: 100%;
+    height: 1630px;
 }
 h1 {
     font-family: 'Orbitron', sans-serif;
