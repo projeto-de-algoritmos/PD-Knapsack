@@ -8,10 +8,9 @@
  
  ##  💻 Visão Geral
 
+ O Mr Olympia Store é uma inovadora loja online que, se baseando em valores similares aos encontrados na internet, busca trazer ao usuário que o acesse uma facilidade no controle de gastos que ele deseja dispensar em proteínas num mês. Sendo assim, tentando facilitar a vida do consumidor, ele oferece, com base na seleção do valor desejado pelo cliente, uma lista otimizada com o maior número de alimentos - com um teor proteico maximizado - no melhor custo-benefício a quem deseja comprar, para assim na hora que se for ao mercado, já se saiba a maior quantidade de produtos, no melhor custo benefício possível.
+ 
  ### Interface: 
-![image](https://github.com/projeto-de-algoritmos/PD-Knapsack/assets/54143767/79d99602-75b5-4876-bf7f-538acbcc6779)
-![image](https://github.com/projeto-de-algoritmos/PD-Knapsack/assets/54143767/32c76288-087e-458f-946f-b50f367f3b8b)
-![image](https://github.com/projeto-de-algoritmos/PD-Knapsack/assets/54143767/158e233d-8d44-45b3-8cb4-f76128eb66f8)
 ![image](https://github.com/projeto-de-algoritmos/PD-Knapsack/assets/54143767/d0a66c50-87f4-4c70-a2fe-c910f1ab8af7)
 ![image](https://github.com/projeto-de-algoritmos/PD-Knapsack/assets/54143767/7b428ea0-a2a1-44ac-9856-52598a5f7da2)
 
