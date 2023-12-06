@@ -39,44 +39,44 @@ function knapsackDinamico(items, capacity) {
 //valor = proteina em gramas
 
 const items = [
-    { name: "Filé Mignon", value: 25, weight: 38},
-    { name: "Costela Bovina", value: 27, weight: 43},
-    { name: "Picanha Bovina", value: 26, weight: 47},
-    { name: "Contrafilé Bovino", value: 29, weight: 36},
-    { name: "Alcatra Bovina", value: 28, weight: 50},
+    { name: "Filé Mignon", value: 250, weight: 38},
+    { name: "Costela Bovina", value: 270, weight: 43},
+    { name: "Picanha Bovina", value: 260, weight: 47},
+    { name: "Contrafilé Bovino", value: 290, weight: 36},
+    { name: "Alcatra Bovina", value: 280, weight: 50},
     
-    { name: "Lombo Suíno", value: 21, weight: 39},
-    { name: "Costeleta Suína", value: 23, weight: 45},
-    { name: "Pernil Suíno", value: 24, weight: 37},
-    { name: "Bacon Suíno", value: 20, weight: 42},
-    { name: "Copa Lombo Suína", value: 22, weight: 48},
+    { name: "Lombo Suíno", value: 210, weight: 39},
+    { name: "Costeleta Suína", value: 230, weight: 45},
+    { name: "Pernil Suíno", value: 240, weight: 37},
+    { name: "Bacon Suíno", value: 200, weight: 42},
+    { name: "Copa Lombo Suína", value: 220, weight: 48},
     
-    { name: "Frango a Passarinho", value: 32, weight: 33},
-    { name: "Coxinha da Asa (Drumette)", value: 34, weight: 31},
-    { name: "Sobrecoxa de Frango", value: 30, weight: 34},
-    { name: "Asa de Frango", value: 35, weight: 18},
-    { name: "Espetinho de Frango", value: 33, weight: 19},
+    { name: "Frango a Passarinho", value: 320, weight: 33},
+    { name: "Coxinha da Asa", value: 340, weight: 31},
+    { name: "Sobrecoxa de Frango", value: 300, weight: 34},
+    { name: "Asa de Frango", value: 350, weight: 18},
+    { name: "Espetinho de Frango", value: 330, weight: 19},
     
-    { name: "Salmão", value: 19, weight: 40},
-    { name: "Tilápia", value: 15, weight: 44},
-    { name: "Atum", value: 26, weight: 35},
-    { name: "Linguado", value: 16, weight: 46},
-    { name: "Truta", value: 18, weight: 41},
+    { name: "Salmão", value: 190, weight: 40},
+    { name: "Tilápia", value: 150, weight: 44},
+    { name: "Atum", value: 260, weight: 35},
+    { name: "Linguado", value: 160, weight: 46},
+    { name: "Truta", value: 180, weight: 41},
     
-    { name: "Ovo de Galinha", value: 13, weight: 28},
-    { name: "Omelete", value: 14, weight: 20},
-    { name: "Ovos Mexidos", value: 15, weight: 17},
-    { name: "Ovos Benedict", value: 12, weight: 30},
-    { name: "Huevos Rancheros", value: 20, weight: 25},
+    { name: "Ovo Branco", value: 180, weight: 25},
+    { name: "Omelete", value: 140, weight: 20},
+    { name: "Ovos de Codorna", value: 150, weight: 17},
+    { name: "Ovos Caipira", value: 120, weight: 30},
+    { name: "Testículo Bovino", value: 200, weight: 25},
     
-    { name: "Soja", value: 24, weight: 16},
-    { name: "Tofu", value: 28, weight: 22},
-    { name: "Tempeh", value: 21, weight: 29},
-    { name: "Edamame", value: 25, weight: 26},
-    { name: "Proteína de Soja Texturizada", value: 29, weight: 21}
+    { name: "Soja", value: 240, weight: 16},
+    { name: "Tofu", value: 280, weight: 22},
+    { name: "Tempeh", value: 210, weight: 29},
+    { name: "Edamame", value: 250, weight: 26},
+    { name: "Proteína de Soja Texturizada", value: 290, weight: 21}
 ];
   
-const resultado = knapsackDinamico(items, 1000);
+const resultado = knapsackDinamico(items, 200);
 console.log("Valor máximo:", resultado.maxValue);
 console.log("Itens selecionados:", resultado.selectedItems);
 resultado.selectedItems.forEach(item => {
