@@ -27,22 +27,25 @@ function App() {
 
   return (
     <div>
-      <h1>Selecione a Capacidade da Mochila:</h1>
+      <h1>Bem vindo ao Mr Olympia Store</h1>
+      <h4>Aqui nós mostramos as melhores proteínas custo-benefício para você não perder seus ganhos</h4>
+      <h2>A seleção é feita com base na quantia em dinheiro desejada</h2>
+      <h3>Selecione quanto pretende gastar:</h3>
       <div>
-        {[10, 20, 30, 40, 50].map((capacity) => (
+        {[100, 200, 300, 400, 500, 600, 700, 800, 900, 1000].map((capacity) => (
           <button
             key={capacity}
             onClick={() => handleCapacitySelection(capacity)}
             className={selectedCapacity === capacity ? 'selected' : ''}
             style={{ marginRight: '10px' }}
           >
-            {capacity}
+            {`${capacity} R$`}
           </button>
         ))}
       </div>
       <br />
       <button  disabled={!selectedCapacity}>
-        Calcular
+        Mostrar Itens
       </button>
 
       {result && (
