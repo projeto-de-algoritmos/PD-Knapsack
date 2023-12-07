@@ -56,4 +56,4 @@ Ctrl+Shift+X
 
   | Conteúdo | Vídeo                                                                                         |
   | -------- | --------------------------------------------------------------------------------------------- |
-  | Módulo 5 | [URL do vídeo]()|
+  | Módulo 5 | [URL do vídeo](./Trabalho%20Modulo%205%20-%20Giulia%20Alcantara%20e%20Daniel%20Rocha.mp4)|
